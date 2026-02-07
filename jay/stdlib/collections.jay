@@ -1,0 +1,4 @@
+# Collections functions are built-in.
+# Lists: push, pop, sort
+# Map: put, get
+# Set: create_set, add

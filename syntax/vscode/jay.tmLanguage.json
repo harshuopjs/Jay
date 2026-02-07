@@ -1,0 +1,33 @@
+{
+    "scopeName": "source.jay",
+    "patterns": [
+        {
+            "match": "\\b(if|else|for|while|return|func|class|import|try|catch|main)\\b",
+            "name": "keyword.control.jay"
+        },
+        {
+            "match": "\\b(int|float|string|bool)\\b",
+            "name": "storage.type.jay"
+        },
+        {
+            "match": "\\b(true|false|null)\\b",
+            "name": "constant.language.jay"
+        },
+        {
+            "match": "\"[^\"]*\"",
+            "name": "string.quoted.double.jay"
+        },
+        {
+            "match": "\\b[0-9]+(\\.[0-9]+)?\\b",
+            "name": "constant.numeric.jay"
+        },
+        {
+            "match": "#.*$",
+            "name": "comment.line.number-sign.jay"
+        },
+        {
+            "match": "\\b(print|input|input_int|input_float|input_bool)\\b",
+            "name": "support.function.builtin.jay"
+        }
+    ]
+}

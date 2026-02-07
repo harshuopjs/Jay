@@ -1,0 +1,22 @@
+main {
+    # Syntax Highlighting Test
+    int x = input_int("Enter number: ");
+    string s = "Hello";
+    bool flag = true;
+
+    /* 
+       Multi-line comment
+    */
+
+    if (x > 10) {
+        print("Big number");
+    } else {
+        print("Small number");
+    }
+
+    for (i = 0; i < x; i = i + 1) {
+        print(i);
+    }
+    
+    list l = [1, 2, 3];
+}

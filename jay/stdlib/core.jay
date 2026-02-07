@@ -1,0 +1,8 @@
+# Core functions:
+# - print(msg)
+# - input(prompt) -> string
+# - input_int(prompt) -> int
+# - input_float(prompt) -> float
+# - input_bool(prompt) -> bool
+# - type(obj), len(obj)
+# - str(x), int(x), float(x), bool(x)

@@ -1,0 +1,38 @@
+{
+    "name": "jay-language-support",
+    "displayName": "Jay Language",
+    "description": "Language support for Jay",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "jay",
+                "aliases": [
+                    "Jay",
+                    "jay"
+                ],
+                "extensions": [
+                    ".jay"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./icons/jay.png",
+                    "dark": "./icons/jay.png"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jay",
+                "scopeName": "source.jay",
+                "path": "./syntaxes/jay.tmLanguage.json"
+            }
+        ]
+    }
+}

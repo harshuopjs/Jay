@@ -1,0 +1,15 @@
+{
+    "name": "tree-sitter-jay",
+    "version": "1.0.0",
+    "description": "Jay grammar for tree-sitter",
+    "main": "bindings/node",
+    "keywords": [
+        "parser",
+        "lexer"
+    ],
+    "author": "JayLang",
+    "license": "MIT",
+    "dependencies": {
+        "nan": "^2.14.2"
+    }
+}
